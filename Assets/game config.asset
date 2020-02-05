@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b4f9e55eb08fc409a14b41a1f2a46d, type: 3}
+  m_Name: game config
+  m_EditorClassIdentifier: 
+  itemIcon:
+    m_keys: 000000000100000002000000
+    m_values:
+    - {fileID: 21300000, guid: 65bbdb9467e117e4dba06ffdac118ca2, type: 3}
+    - {fileID: 21300000, guid: 5c82e01258bac544d87decc6ea87cf63, type: 3}
+    - {fileID: 21300000, guid: 2684300a65dc17341bfbf9633995ed84, type: 3}
+  itemPrefab:
+    m_keys: 000000000100000002000000
+    m_values:
+    - {fileID: 7799716706257008457, guid: cc3c681136f16ce4f96b6cb3956834a9, type: 3}
+    - {fileID: 112774680311760019, guid: f486b0b82875e244589eef93e3897fbb, type: 3}
+    - {fileID: 8506408650260204984, guid: 31695838426a377449935229b783561b, type: 3}
+  itemColors:
+    m_keys: 010000000200000000000000
+    m_values:
+    - {r: 0.65882355, g: 0.21568628, b: 0.21568628, a: 1}
+    - {r: 0.32859614, g: 0.3247597, b: 0.7735849, a: 1}
+    - {r: 0.21568625, g: 0.65882355, b: 0.30390316, a: 1}
+  rules:
+    m_keys: 000000000100000002000000
+    m_values: 010000000200000000000000
+  movementSpeed: 0.6
+  startStamina: 3
+  maxStamina: 10
+  staminaRestorePerSecond: 0.78
+  health: 10
+  squadTemplates:
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 1, y: 1}
+    - {x: -1, y: 1}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: -1, y: 0}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: -1, y: 1}
+    - {x: 1, y: 1}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: -1, y: 0}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+  - type: 0
+    items:
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    - {x: -1, y: 0}
+    - {x: -1, y: 1}
+  - type: 0
+    items:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: -1, y: 0}
+    - {x: 0, y: 1}
+  - type: 0
+    items:
+    - {x: -1, y: 0}
+    - {x: -1, y: 1}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+  CollisionDistance: 0.862
